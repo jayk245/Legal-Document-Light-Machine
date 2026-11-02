@@ -1,0 +1,18 @@
+{
+  "config": {
+    "train_docs": 1000,
+    "dev_docs": 100,
+    "test_docs": 100,
+    "min_count": 2
+  },
+  "vocab_size": 22618,
+  "n": 4,
+  "method": "witten_bell",
+  "lambdas": null,
+  "k": null,
+  "default_prefix": "whereas , the",
+  "train_perplexity": 4.97,
+  "dev_perplexity": 38.39,
+  "test_perplexity": 33.9,
+  "median_longest_copied_run": 11.0
+}
