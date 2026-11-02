@@ -18,6 +18,12 @@ Trained on 1,000 contracts from [`albertvillanova/legal_contracts`](https://hugg
 
 Full metrics and charts are in [`reports/`](reports/).
 
+## Data source
+
+The training data is the [`legal_contracts`](https://huggingface.co/datasets/albertvillanova/legal_contracts) dataset by albertvillanova on Hugging Face, mostly exhibits attached to SEC filings. The notebook downloads it, and this repo doesn't include the raw data. The dataset page states no licence, and the contracts belong to their original parties.
+
+The notebook's saved outputs include short excerpts and generated text that can contain real company and personal names from those filings.
+
 ## Run it
 
 Uses Python 3.12.
